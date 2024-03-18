@@ -1,0 +1,62 @@
+.case-card{
+    display: flex;
+    margin: auto;
+    /* margin-bottom: 50px; */
+    width: 100%;
+    background-color: rgb(246, 248, 248);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 240px;
+}
+.case-card img{
+    height: 280px;
+    width: 370px;
+    transition: 0.5s;
+
+}
+.case-card .container{
+    display: flex;
+    margin-top: 5%;
+}
+.case-card .card{
+    height: 280px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px rgba(194, 193, 193, 0.753);
+    overflow: hidden;
+}
+.case-card .dec{
+    height: 100px;
+    width: 370px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom:10px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.case-card h1{
+    margin: 5px 0;
+    font-size: 20px;
+}
+.case-card h5{
+    font-weight: 400;
+}
+.case-card p{
+    color: rgb(0, 105, 217);
+    font-weight: 900;
+    font-size: 15px;
+}
+.case-card .card:hover{
+    cursor: pointer;
+}
+.case-card .card:hover .dec{
+    bottom: 10px;
+    height: 120px;
+}
+.case-card .card:hover img{
+    transform: scale(1.1);
+}

@@ -1,0 +1,96 @@
+.what-we-do{
+    position: absolute;
+    background-color: #f5f8f8;
+    width: 100vw;
+    height: auto;
+    padding-left: 230px;
+}
+
+.card-1{
+
+    width: 1049px;
+    height: 443px;
+    background-color:#ffffff;
+    margin-top: 190px;
+    margin-left: 250px;
+
+
+
+}
+
+.card-1 h3{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 510px;
+    margin-top:60px;
+}
+.card-1-p{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 510px;
+    font-size: 12px;
+}
+
+.card-1-desc{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 570px;
+    margin-top:230px;
+    text-align: left;
+}
+
+.card-1-img{
+    width: 590px;
+    height: 394px;
+    position: absolute;
+    margin-top:-66px;
+    margin-left: -100px;
+}
+
+.what-we-do-h1{
+    position: absolute;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+.card-2{
+
+    width: 1049px;
+    height: 443px;
+    background-color: #ffffff;
+    margin-top: 190px;
+    margin-left: 250px;
+
+
+
+}
+
+.card-2 h3{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 510px;
+    margin-top:60px;
+}
+.card-2-p{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 510px;
+    font-size: 12px;
+}
+
+.card-2-desc{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 570px;
+    margin-top:280px;
+    text-align: left;
+}
+
+.card-2-img{
+    width: 590px;
+    height: 394px;
+    position: absolute;
+    margin-top:-66px;
+    margin-left: -100px;
+}

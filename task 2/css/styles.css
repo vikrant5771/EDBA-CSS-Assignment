@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif; 
+
+}
+
+
+
+header {
+    background-color: #151416;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    z-index: 9999;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    /* position: fixed; */
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 30px; 
+    font-size: 12px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+
+.contact-btn {
+    background-color: #0264ce;
+    color: #fff;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+.nav-links li:last-child {
+    margin-right: 30px; 
+}
+#raw_main_logo{
+    max-width: 181px;
+    max-height: 55px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative; 
+}
+
+.nav-links li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: #fff;
+    transition: width 0.3s ease, left 0.3s ease; 
+}
+
+.nav-links li a:hover::before {
+    width: 100%; 
+}
+
+.intro{
+    width: 100vw;
+    height: 580px;
+    background: #151416;
+    padding-top: 90px;
+    
+}
+#raw_neon_city{
+    width: 590px;
+    height: 550px;
+    position: absolute;
+    right: 378px;
+
+}
+
+#fast-track{
+    color: white;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 450px;
+    font-size: 55px;
+   
+    
+}
+#raw-para{
+    color:white;
+    position: absolute;
+    font-family: 18px;
+    margin-top: 220px;
+    margin-left: 450px;
+    line-height: 25px;
+}
+
+.motivation{
+    text-align: center;
+    margin-top: 120px;
+    line-height: 25px;
+}
+
+
+header{
+    position: fixed;
+    width: 100vw;
+}
+
+
+.learn-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
